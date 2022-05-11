@@ -1,0 +1,379 @@
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#contains
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasDimension
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasProperty
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#achievementVersusAscriptionValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#achievementVersusAscriptionValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#achievementVersusAscriptionValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#buildingTrustValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#buildingTrustValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#buildingTrustValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#causalFactorsValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#causalFactorsValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#causalFactorsValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#decisionMakingValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#decisionMakingValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#decisionMakingValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#disagreeingValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#disagreeingValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#disagreeingValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#heroicFiguresValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#heroicFiguresValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#heroicFiguresValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#historyValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#historyValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#historyValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#humaneOrientationValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#humaneOrientationValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#humaneOrientationValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#idealCultureValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#idealCultureValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#idealCultureValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCollectivismValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCollectivismValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCollectivismValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCommunitarianismValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCommunitarianismValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCommunitarianismValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#indulgenceVersusRestraintValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#indulgenceVersusRestraintValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#indulgenceVersusRestraintValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#internalDirectionVersusExternalDirectionValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#internalDirectionVersusExternalDirectionValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#internalDirectionVersusExternalDirectionValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#interpretationValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#interpretationValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#interpretationValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#leadershipHierarchyPowerValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#leadershipHierarchyPowerValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#leadershipHierarchyPowerValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#longtermVersusShorttermOrientationValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#longtermVersusShorttermOrientationValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#longtermVersusShorttermOrientationValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#masculinityVersusFemininityValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#masculinityVersusFemininityValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#masculinityVersusFemininityValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#negativeFeedbackValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#negativeFeedbackValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#negativeFeedbackValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#neutralVersusEmotionalValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#neutralVersusEmotionalValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#neutralVersusEmotionalValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#operatingCultureValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#operatingCultureValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#operatingCultureValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#outcomesValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#outcomesValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#outcomesValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#performanceOrientationValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#performanceOrientationValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#performanceOrientationValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#persuasionValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#persuasionValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#persuasionValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#powerDistanceValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#powerDistanceValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#powerDistanceValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ritualsAndCeremoniesValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ritualsAndCeremoniesValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ritualsAndCeremoniesValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#schedulingValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#schedulingValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#schedulingValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#sequentialVersusSynchronousTimeValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#sequentialVersusSynchronousTimeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#sequentialVersusSynchronousTimeValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#specificVersusDiffuseValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#specificVersusDiffuseValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#specificVersusDiffuseValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#storiesValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#storiesValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#storiesValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#theCulturalNetworkValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#theCulturalNetworkValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#theCulturalNetworkValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#uncertainityAvoidanceValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#uncertainityAvoidanceValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#uncertainityAvoidanceValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#universalismVersusParticularismValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#universalismVersusParticularismValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#universalismVersusParticularismValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#valuesAndBeliefValue
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#valuesAndBeliefValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#valuesAndBeliefValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievementVersusAscription
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievementVersusAscription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievementVersusAscription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievingExcellence
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievingExcellence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievingExcellence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AuthenticExpression
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AuthenticExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AuthenticExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BuildingTrust
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BuildingTrust> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BuildingTrust> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CausalFactors
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CausalFactors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CausalFactors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CourageouslyEvolving
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CourageouslyEvolving> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CourageouslyEvolving> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CultivatingCommunities
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CultivatingCommunities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CultivatingCommunities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#DecisionMaking
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#DecisionMaking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#DecisionMaking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Disagreeing
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Disagreeing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Disagreeing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#EnsuringViability
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#EnsuringViability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#EnsuringViability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HeroicFigures
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HeroicFigures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HeroicFigures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#History
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#History> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#History> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HumaneOrientation
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HumaneOrientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HumaneOrientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IdealCulture
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IdealCulture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IdealCulture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCollectivism
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCollectivism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCollectivism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCommunitarianism
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCommunitarianism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCommunitarianism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndulgenceVersusRestraint
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndulgenceVersusRestraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndulgenceVersusRestraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#InternalDirectionVersusExternalDirection
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#InternalDirectionVersusExternalDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#InternalDirectionVersusExternalDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Interpretation
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Interpretation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Interpretation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LeadershipHierarchyPower
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LeadershipHierarchyPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LeadershipHierarchyPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LivingPurpose
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LivingPurpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LivingPurpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LongtermVersusShorttermOrientation
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LongtermVersusShorttermOrientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LongtermVersusShorttermOrientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#MasculinityVersusFemininity
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#MasculinityVersusFemininity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#MasculinityVersusFemininity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NegativeFeedback
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NegativeFeedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NegativeFeedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NeutralVersusEmotional
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NeutralVersusEmotional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NeutralVersusEmotional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#OperatingCulture
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#OperatingCulture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#OperatingCulture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Outcomes
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Outcomes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Outcomes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PerformanceOrientation
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PerformanceOrientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PerformanceOrientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Persuasion
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Persuasion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Persuasion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PowerDistance
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PowerDistance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PowerDistance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#RitualsAndCeremonies
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#RitualsAndCeremonies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#RitualsAndCeremonies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Scheduling
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Scheduling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Scheduling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SequentialVersusSynchronousTime
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SequentialVersusSynchronousTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SequentialVersusSynchronousTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SpecificVersusDiffuse
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SpecificVersusDiffuse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SpecificVersusDiffuse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Stories
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Stories> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Stories> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SupportingRelationships
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SupportingRelationships> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SupportingRelationships> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TheCulturalNetwork
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TheCulturalNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TheCulturalNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TheCulturalNetwork> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#contains> "Gossipers" .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TheCulturalNetwork> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#contains> "Priests and Priestesses" .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TheCulturalNetwork> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#contains> "Spies" .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TheCulturalNetwork> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#contains> "Storytellers" .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TheCulturalNetwork> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#contains> "Whisperers" .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UncertainityAvoidance
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UncertainityAvoidance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UncertainityAvoidance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UniversalismVersusParticularism
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UniversalismVersusParticularism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UniversalismVersusParticularism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ValuesAndBelief
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ValuesAndBelief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ValuesAndBelief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

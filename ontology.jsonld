@@ -1,0 +1,498 @@
+[ {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievementVersusAscription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievingExcellence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AuthenticExpression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BuildingTrust",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CausalFactors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CourageouslyEvolving",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CultivatingCommunities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#DecisionMaking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Disagreeing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#EnsuringViability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HeroicFigures",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#History",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HumaneOrientation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IdealCulture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCollectivism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCommunitarianism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndulgenceVersusRestraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#InternalDirectionVersusExternalDirection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Interpretation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LeadershipHierarchyPower",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LivingPurpose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LongtermVersusShorttermOrientation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#MasculinityVersusFemininity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NegativeFeedback",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NeutralVersusEmotional",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#OperatingCulture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Outcomes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PerformanceOrientation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Persuasion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PowerDistance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#RitualsAndCeremonies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Scheduling",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SequentialVersusSynchronousTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SpecificVersusDiffuse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Stories",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SupportingRelationships",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TheCulturalNetwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#contains" : [ {
+    "@value" : "Gossipers"
+  }, {
+    "@value" : "Priests and Priestesses"
+  }, {
+    "@value" : "Spies"
+  }, {
+    "@value" : "Storytellers"
+  }, {
+    "@value" : "Whisperers"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UncertainityAvoidance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UniversalismVersusParticularism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ValuesAndBelief",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#achievementVersusAscriptionValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#buildingTrustValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#causalFactorsValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#contains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#decisionMakingValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#disagreeingValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasDimension",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#heroicFiguresValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#historyValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#humaneOrientationValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#idealCultureValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCollectivismValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCommunitarianismValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#indulgenceVersusRestraintValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#internalDirectionVersusExternalDirectionValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#interpretationValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#leadershipHierarchyPowerValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#longtermVersusShorttermOrientationValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#masculinityVersusFemininityValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#negativeFeedbackValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#neutralVersusEmotionalValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#operatingCultureValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#outcomesValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#performanceOrientationValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#persuasionValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#powerDistanceValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ritualsAndCeremoniesValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#schedulingValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#sequentialVersusSynchronousTimeValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#specificVersusDiffuseValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#storiesValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#theCulturalNetworkValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#uncertainityAvoidanceValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#universalismVersusParticularismValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#valuesAndBeliefValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"
+  } ]
+} ]
