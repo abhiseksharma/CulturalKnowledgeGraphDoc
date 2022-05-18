@@ -52,34 +52,34 @@
     "id" : "32",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "47",
+    "id" : "48",
     "type" : "owl:Class"
   }, {
-    "id" : "48",
+    "id" : "49",
     "type" : "rdfs:Literal"
   }, {
     "id" : "17",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "23",
+    "id" : "52",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "51",
+    "id" : "23",
     "type" : "rdfs:Literal"
   }, {
     "id" : "13",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "52",
+    "id" : "53",
     "type" : "rdfs:Literal"
   }, {
     "id" : "15",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "56",
+    "id" : "57",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "58",
+    "id" : "59",
     "type" : "rdfs:Literal"
   }, {
     "id" : "5",
@@ -94,13 +94,13 @@
     "id" : "11",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "59",
+    "id" : "60",
     "type" : "owl:Class"
   }, {
-    "id" : "61",
+    "id" : "62",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "63",
+    "id" : "64",
     "type" : "rdfs:Literal"
   }, {
     "id" : "41",
@@ -115,19 +115,19 @@
     "id" : "77",
     "type" : "owl:Class"
   }, {
-    "id" : "54",
+    "id" : "55",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "44",
+    "id" : "45",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "76",
+    "id" : "43",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "50",
+    "id" : "51",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "46",
+    "id" : "47",
     "type" : "rdfs:Literal"
   } ],
   "classAttribute" : [ {
@@ -227,16 +227,16 @@
         "IRI-based" : "CausalFactors"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HumaneOrientation",
-      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-      "labels" : {
-        "IRI-based" : "HumaneOrientation"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Stories",
       "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
       "labels" : {
         "IRI-based" : "Stories"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HumaneOrientation",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "HumaneOrientation"
       }
     }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LongtermVersusShorttermOrientation",
@@ -299,6 +299,12 @@
         "IRI-based" : "PowerDistance"
       }
     }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#RitualsAndCeremonies",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "RitualsAndCeremonies"
+      }
+    }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PerformanceOrientation",
       "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
       "labels" : {
@@ -309,12 +315,6 @@
       "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
       "labels" : {
         "IRI-based" : "IndividualismVersusCollectivism"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#RitualsAndCeremonies",
-      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-      "labels" : {
-        "IRI-based" : "RitualsAndCeremonies"
       }
     }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HeroicFigures",
@@ -341,11 +341,6 @@
         "contains" : [ {
           "identifier" : "contains",
           "language" : "undefined",
-          "value" : "Spies",
-          "type" : "label"
-        }, {
-          "identifier" : "contains",
-          "language" : "undefined",
           "value" : "Storytellers",
           "type" : "label"
         }, {
@@ -356,12 +351,17 @@
         }, {
           "identifier" : "contains",
           "language" : "undefined",
-          "value" : "Whisperers",
+          "value" : "Priests and Priestesses",
           "type" : "label"
         }, {
           "identifier" : "contains",
           "language" : "undefined",
-          "value" : "Priests and Priestesses",
+          "value" : "Spies",
+          "type" : "label"
+        }, {
+          "identifier" : "contains",
+          "language" : "undefined",
+          "value" : "Whisperers",
           "type" : "label"
         } ]
       },
@@ -375,16 +375,16 @@
         "IRI-based" : "MasculinityVersusFemininity"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SequentialVersusSynchronousTime",
-      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-      "labels" : {
-        "IRI-based" : "SequentialVersusSynchronousTime"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IdealCulture",
       "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
       "labels" : {
         "IRI-based" : "IdealCulture"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SequentialVersusSynchronousTime",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "SequentialVersusSynchronousTime"
       }
     }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UncertainityAvoidance",
@@ -454,16 +454,16 @@
         "IRI-based" : "Interpretation"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Scheduling",
-      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-      "labels" : {
-        "IRI-based" : "Scheduling"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BuildingTrust",
       "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
       "labels" : {
         "IRI-based" : "BuildingTrust"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Scheduling",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Scheduling"
       }
     }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NegativeFeedback",
@@ -472,11 +472,11 @@
         "IRI-based" : "NegativeFeedback"
       }
     } ],
-    "id" : "47",
+    "id" : "48",
     "superClasses" : [ "41" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "48",
+    "id" : "49",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -490,14 +490,14 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "23",
+    "id" : "52",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "51",
+    "id" : "23",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -511,7 +511,7 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "52",
+    "id" : "53",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -525,14 +525,14 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "56",
+    "id" : "57",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "58",
+    "id" : "59",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -579,16 +579,16 @@
         "IRI-based" : "CourageouslyEvolving"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LivingPurpose",
-      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-      "labels" : {
-        "IRI-based" : "LivingPurpose"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AuthenticExpression",
       "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
       "labels" : {
         "IRI-based" : "AuthenticExpression"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LivingPurpose",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "LivingPurpose"
       }
     }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievingExcellence",
@@ -603,29 +603,29 @@
         "IRI-based" : "EnsuringViability"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CultivatingCommunities",
-      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-      "labels" : {
-        "IRI-based" : "CultivatingCommunities"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SupportingRelationships",
       "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
       "labels" : {
         "IRI-based" : "SupportingRelationships"
       }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CultivatingCommunities",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "CultivatingCommunities"
+      }
     } ],
-    "id" : "59"
+    "id" : "60"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "61",
+    "id" : "62",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "63",
+    "id" : "64",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -637,7 +637,7 @@
     "label" : {
       "IRI-based" : "Culture"
     },
-    "subClasses" : [ "40", "47" ],
+    "subClasses" : [ "40", "48" ],
     "id" : "41"
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
@@ -663,35 +663,35 @@
     "id" : "77"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "54",
+    "id" : "55",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "44",
+    "id" : "45",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "76",
+    "id" : "43",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "50",
+    "id" : "51",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "46",
+    "id" : "47",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -749,31 +749,28 @@
     "id" : "42",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "43",
+    "id" : "44",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "45",
+    "id" : "46",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "49",
+    "id" : "50",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "53",
+    "id" : "54",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "55",
+    "id" : "56",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "57",
+    "id" : "58",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "60",
+    "id" : "61",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "62",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "64",
+    "id" : "63",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "65",
@@ -786,10 +783,10 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "68",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "69",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "70",
     "type" : "owl:datatypeProperty"
@@ -807,6 +804,9 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "76",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "78",
@@ -896,21 +896,21 @@
     "attributes" : [ "datatype" ],
     "id" : "16"
   }, {
-    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#universalismVersusParticularismValue",
+    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
     "range" : "23",
     "label" : {
-      "IRI-based" : "universalismVersusParticularismValue"
+      "IRI-based" : "propertyValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
     "id" : "22"
   }, {
-    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue",
+    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#universalismVersusParticularismValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
     "range" : "25",
     "label" : {
-      "IRI-based" : "propertyValue"
+      "IRI-based" : "universalismVersusParticularismValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
@@ -978,7 +978,7 @@
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#persuasionValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-    "range" : "18",
+    "range" : "43",
     "label" : {
       "IRI-based" : "persuasionValue"
     },
@@ -988,113 +988,113 @@
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#negativeFeedbackValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-    "range" : "44",
+    "range" : "45",
     "label" : {
       "IRI-based" : "negativeFeedbackValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "43"
+    "id" : "44"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#longtermVersusShorttermOrientationValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-    "range" : "46",
+    "range" : "47",
     "label" : {
       "IRI-based" : "longtermVersusShorttermOrientationValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "45"
+    "id" : "46"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#sequentialVersusSynchronousTimeValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-    "range" : "50",
+    "range" : "51",
     "label" : {
       "IRI-based" : "sequentialVersusSynchronousTimeValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "49"
+    "id" : "50"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#storiesValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-    "range" : "54",
+    "range" : "55",
     "label" : {
       "IRI-based" : "storiesValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "53"
+    "id" : "54"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#disagreeingValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-    "range" : "56",
+    "range" : "57",
     "label" : {
       "IRI-based" : "disagreeingValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "55"
+    "id" : "56"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#indulgenceVersusRestraintValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-    "range" : "58",
+    "range" : "59",
     "label" : {
       "IRI-based" : "indulgenceVersusRestraintValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "57"
+    "id" : "58"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#decisionMakingValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-    "range" : "61",
+    "range" : "62",
     "label" : {
       "IRI-based" : "decisionMakingValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "60"
+    "id" : "61"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#achievementVersusAscriptionValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-    "range" : "63",
+    "range" : "64",
     "label" : {
       "IRI-based" : "achievementVersusAscriptionValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "62"
+    "id" : "63"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#outcomesValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-    "range" : "52",
+    "range" : "53",
     "label" : {
       "IRI-based" : "outcomesValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "64"
+    "id" : "65"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#humaneOrientationValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-    "range" : "48",
+    "range" : "49",
     "label" : {
       "IRI-based" : "humaneOrientationValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "65"
+    "id" : "66"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#masculinityVersusFemininityValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-    "range" : "51",
+    "range" : "52",
     "label" : {
       "IRI-based" : "masculinityVersusFemininityValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "66"
+    "id" : "67"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#idealCultureValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
@@ -1104,7 +1104,7 @@
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "67"
+    "id" : "68"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasProperty",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
@@ -1114,7 +1114,7 @@
     },
     "domain" : "1",
     "attributes" : [ "object" ],
-    "id" : "68"
+    "id" : "69"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#buildingTrustValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
@@ -1124,27 +1124,27 @@
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "69"
-  }, {
-    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#leadershipHierarchyPowerValue",
-    "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-    "range" : "20",
-    "label" : {
-      "IRI-based" : "leadershipHierarchyPowerValue"
-    },
-    "domain" : "1",
-    "attributes" : [ "datatype" ],
     "id" : "70"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#internalDirectionVersusExternalDirectionValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-    "range" : "29",
+    "range" : "20",
     "label" : {
       "IRI-based" : "internalDirectionVersusExternalDirectionValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
     "id" : "71"
+  }, {
+    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#leadershipHierarchyPowerValue",
+    "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "leadershipHierarchyPowerValue"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "72"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#powerDistanceValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
@@ -1154,7 +1154,7 @@
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "72"
+    "id" : "73"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#uncertainityAvoidanceValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
@@ -1164,36 +1164,36 @@
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "73"
+    "id" : "74"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#theCulturalNetworkValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-    "range" : "3",
+    "range" : "18",
     "label" : {
       "IRI-based" : "theCulturalNetworkValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "74"
+    "id" : "75"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#historyValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-    "range" : "76",
+    "range" : "3",
     "label" : {
       "IRI-based" : "historyValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "75"
+    "id" : "76"
   }, {
     "range" : "41",
     "domain" : "40",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "78"
   }, {
     "range" : "41",
-    "domain" : "47",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "48",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "79"
   } ]
 }
