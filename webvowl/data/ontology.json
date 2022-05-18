@@ -61,10 +61,10 @@
     "id" : "17",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "52",
+    "id" : "23",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "23",
+    "id" : "52",
     "type" : "rdfs:Literal"
   }, {
     "id" : "13",
@@ -94,10 +94,10 @@
     "id" : "11",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "60",
+    "id" : "62",
     "type" : "owl:Class"
   }, {
-    "id" : "62",
+    "id" : "61",
     "type" : "rdfs:Literal"
   }, {
     "id" : "64",
@@ -221,10 +221,10 @@
         "IRI-based" : "OperatingCulture"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CausalFactors",
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HumaneOrientation",
       "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
       "labels" : {
-        "IRI-based" : "CausalFactors"
+        "IRI-based" : "HumaneOrientation"
       }
     }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Stories",
@@ -233,22 +233,22 @@
         "IRI-based" : "Stories"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HumaneOrientation",
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CausalFactors",
       "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
       "labels" : {
-        "IRI-based" : "HumaneOrientation"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LongtermVersusShorttermOrientation",
-      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-      "labels" : {
-        "IRI-based" : "LongtermVersusShorttermOrientation"
+        "IRI-based" : "CausalFactors"
       }
     }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UniversalismVersusParticularism",
       "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
       "labels" : {
         "IRI-based" : "UniversalismVersusParticularism"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LongtermVersusShorttermOrientation",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "LongtermVersusShorttermOrientation"
       }
     }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievementVersusAscription",
@@ -269,16 +269,16 @@
         "IRI-based" : "ValuesAndBelief"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Outcomes",
-      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-      "labels" : {
-        "IRI-based" : "Outcomes"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCommunitarianism",
       "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
       "labels" : {
         "IRI-based" : "IndividualismVersusCommunitarianism"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Outcomes",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Outcomes"
       }
     }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#InternalDirectionVersusExternalDirection",
@@ -346,12 +346,12 @@
         }, {
           "identifier" : "contains",
           "language" : "undefined",
-          "value" : "Gossipers",
+          "value" : "Whisperers",
           "type" : "label"
         }, {
           "identifier" : "contains",
           "language" : "undefined",
-          "value" : "Priests and Priestesses",
+          "value" : "Gossipers",
           "type" : "label"
         }, {
           "identifier" : "contains",
@@ -361,7 +361,7 @@
         }, {
           "identifier" : "contains",
           "language" : "undefined",
-          "value" : "Whisperers",
+          "value" : "Priests and Priestesses",
           "type" : "label"
         } ]
       },
@@ -375,16 +375,16 @@
         "IRI-based" : "MasculinityVersusFemininity"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IdealCulture",
-      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-      "labels" : {
-        "IRI-based" : "IdealCulture"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SequentialVersusSynchronousTime",
       "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
       "labels" : {
         "IRI-based" : "SequentialVersusSynchronousTime"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IdealCulture",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "IdealCulture"
       }
     }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UncertainityAvoidance",
@@ -430,16 +430,16 @@
         "IRI-based" : "Disagreeing"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Persuasion",
-      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-      "labels" : {
-        "IRI-based" : "Persuasion"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#DecisionMaking",
       "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
       "labels" : {
         "IRI-based" : "DecisionMaking"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Persuasion",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Persuasion"
       }
     }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LeadershipHierarchyPower",
@@ -490,14 +490,14 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "52",
+    "id" : "23",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "23",
+    "id" : "52",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -579,16 +579,16 @@
         "IRI-based" : "CourageouslyEvolving"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AuthenticExpression",
-      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-      "labels" : {
-        "IRI-based" : "AuthenticExpression"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LivingPurpose",
       "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
       "labels" : {
         "IRI-based" : "LivingPurpose"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AuthenticExpression",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "AuthenticExpression"
       }
     }, {
       "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievingExcellence",
@@ -615,10 +615,10 @@
         "IRI-based" : "CultivatingCommunities"
       }
     } ],
-    "id" : "60"
+    "id" : "62"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "62",
+    "id" : "61",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -660,6 +660,823 @@
     "label" : {
       "IRI-based" : "Country"
     },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Italy",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Italy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Indonesia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Indonesia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#France",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "France"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Nigeria",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Nigeria"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#DominicanRep",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "DominicanRep"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Serbia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Serbia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Ethiopia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Ethiopia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Fiji",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Fiji"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Senegal",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Senegal"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Bolivia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Bolivia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Kuwait",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Kuwait"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Singapore",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Singapore"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Malta",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Malta"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Croatia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Croatia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Romania",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Romania"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SouthAfricawhite",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "SouthAfricawhite"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PuertoRico",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "PuertoRico"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Ireland",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Ireland"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#China",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "China"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Uruguay",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Uruguay"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SaudiArabia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "SaudiArabia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SierraLeone",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "SierraLeone"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Jordan",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Jordan"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Slovenia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Slovenia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Norway",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Norway"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Uganda",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Uganda"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Venezuela",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Venezuela"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SouthKorea",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "SouthKorea"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#USA",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "USA"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CanadaFrench",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "CanadaFrench"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AfricaWest",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "AfricaWest"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Philippines",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Philippines"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Denmark",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Denmark"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Montenegro",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Montenegro"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Australia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Australia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Israel",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Israel"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Morocco",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Morocco"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BelgiumFrench",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "BelgiumFrench"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Mozambique",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Mozambique"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Malaysia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Malaysia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Kazakhstan",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Kazakhstan"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Moldova",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Moldova"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Suriname",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Suriname"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Panama",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Panama"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Paraguay",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Paraguay"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Colombia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Colombia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Ghana",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Ghana"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Iraq",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Iraq"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SriLanka",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "SriLanka"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SouthAfrica",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "SouthAfrica"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Zambia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Zambia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Iran",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Iran"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Angola",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Angola"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Mali",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Mali"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Albania",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Albania"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Greece",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Greece"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Peru",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Peru"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Belarus",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Belarus"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Germany",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Germany"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Georgia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Georgia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Japan",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Japan"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SwitzerlandFrench",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "SwitzerlandFrench"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Egypt",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Egypt"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Iceland",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Iceland"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SwitzerlandGerman",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "SwitzerlandGerman"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UnitedArabEmirates",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "UnitedArabEmirates"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Bulgaria",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Bulgaria"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Netherlands",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Netherlands"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Vietnam",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Vietnam"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Malawi",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Malawi"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#GreatBritain",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "GreatBritain"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Russia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Russia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Turkey",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Turkey"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Pakistan",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Pakistan"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Libya",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Libya"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UnitedKingdom",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "UnitedKingdom"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Thailand",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Thailand"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Tunisia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Tunisia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Poland",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Poland"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#India",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "India"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Tanzania",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Tanzania"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Qatar",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Qatar"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Ukraine",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Ukraine"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Kenya",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Kenya"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Sweden",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Sweden"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Andorra",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Andorra"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Mexico",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Mexico"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Zimbabwe",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Zimbabwe"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Lebanon",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Lebanon"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Nepal",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Nepal"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SãoToméandPríncipe",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "SãoToméandPríncipe"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Latvia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Latvia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#KyrgyzRep",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "KyrgyzRep"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Lithuania",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Lithuania"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Bhutan",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Bhutan"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HongKong",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "HongKong"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ElSalvador",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "ElSalvador"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Estonia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Estonia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CapeVerde",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "CapeVerde"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Spain",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Spain"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CostaRica",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "CostaRica"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Switzerland",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Switzerland"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Azerbaijan",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Azerbaijan"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Rwanda",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Rwanda"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Bangladesh",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Bangladesh"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NorthMacedonia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "NorthMacedonia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Belgium",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Belgium"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SlovakRep",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "SlovakRep"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Namibia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Namibia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Portugal",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Portugal"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Armenia",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Armenia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Austria",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Austria"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Canada",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Canada"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Cyprus",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Cyprus"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BelgiumNetherl",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "BelgiumNetherl"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BosniaandHerzegovina",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "BosniaandHerzegovina"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Honduras",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Honduras"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NewZealand",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "NewZealand"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Taiwan",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Taiwan"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Chile",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Chile"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Arabcountries",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Arabcountries"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Brazil",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Brazil"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Syria",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Syria"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Ecuador",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Ecuador"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Luxembourg",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Luxembourg"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BurkinaFaso",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "BurkinaFaso"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CzechRep",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "CzechRep"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Algeria",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Algeria"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AfricaEast",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "AfricaEast"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#GermanyEast",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "GermanyEast"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Guatemala",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Guatemala"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Hungary",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Hungary"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TrinidadandTobago",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "TrinidadandTobago"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Jamaica",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Jamaica"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Argentina",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Argentina"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Finland",
+      "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
+      "labels" : {
+        "IRI-based" : "Finland"
+      }
+    } ],
     "id" : "77"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -767,7 +1584,7 @@
     "id" : "58",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "61",
+    "id" : "60",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "63",
@@ -896,21 +1713,21 @@
     "attributes" : [ "datatype" ],
     "id" : "16"
   }, {
-    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue",
+    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#universalismVersusParticularismValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
     "range" : "23",
     "label" : {
-      "IRI-based" : "propertyValue"
+      "IRI-based" : "universalismVersusParticularismValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
     "id" : "22"
   }, {
-    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#universalismVersusParticularismValue",
+    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
     "range" : "25",
     "label" : {
-      "IRI-based" : "universalismVersusParticularismValue"
+      "IRI-based" : "propertyValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
@@ -1048,13 +1865,13 @@
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#decisionMakingValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
-    "range" : "62",
+    "range" : "61",
     "label" : {
       "IRI-based" : "decisionMakingValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "61"
+    "id" : "60"
   }, {
     "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#achievementVersusAscriptionValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
@@ -1126,21 +1943,21 @@
     "attributes" : [ "datatype" ],
     "id" : "70"
   }, {
-    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#internalDirectionVersusExternalDirectionValue",
+    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#leadershipHierarchyPowerValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
     "range" : "20",
     "label" : {
-      "IRI-based" : "internalDirectionVersusExternalDirectionValue"
+      "IRI-based" : "leadershipHierarchyPowerValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
     "id" : "71"
   }, {
-    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#leadershipHierarchyPowerValue",
+    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#internalDirectionVersusExternalDirectionValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
     "range" : "29",
     "label" : {
-      "IRI-based" : "leadershipHierarchyPowerValue"
+      "IRI-based" : "internalDirectionVersusExternalDirectionValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
@@ -1166,21 +1983,21 @@
     "attributes" : [ "datatype" ],
     "id" : "74"
   }, {
-    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#theCulturalNetworkValue",
+    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#historyValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
     "range" : "18",
     "label" : {
-      "IRI-based" : "theCulturalNetworkValue"
+      "IRI-based" : "historyValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
     "id" : "75"
   }, {
-    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#historyValue",
+    "iri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#theCulturalNetworkValue",
     "baseIri" : "http://www.semanticweb.org/abhis/CulturalKnowledgeGraph",
     "range" : "3",
     "label" : {
-      "IRI-based" : "historyValue"
+      "IRI-based" : "theCulturalNetworkValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype" ],
